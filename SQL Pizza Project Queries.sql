@@ -154,9 +154,6 @@ join pizza_types on pizza_types.pizza_type_id = pizzas.pizza_type_id
 group by pizza_types.name
 order by [Revenue from pizza] desc
 
--- try doing it using window functions also
-
-
 /*
 Advanced:
 Calculate the percentage contribution of each pizza type to total revenue.
